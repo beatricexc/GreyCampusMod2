@@ -10,7 +10,7 @@ Residuals = actual-predicted
 -there is no correlation between the consecutive residuals in a time series data 
 
 **Homoscedasticity** : The residuals have constant variance at every level of x (error distribution)
-- the simples wasy to detect heteroscedasticity is by creating a fitted value vs a residual plot.
+- the simplest way to detect heteroscedasticity is by creating a fitted value vs a residual plot.
 
 **Multivariate Normality** : assumes that residuals are normally distributed
 
