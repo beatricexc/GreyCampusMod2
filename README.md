@@ -2,9 +2,10 @@
 Supervised Learning-Linear Regression
 
 The process of finding out the relationship between 2 variables is called linear regression.
-Residuals = actual-predict
-actual = data points
-predict = line of regression
+
+Residuals = actual-predicted
+*actual* = data points
+*predicted* = line of regression (line of best fit)
 -residuals are independent 
 -there is no correlation between the consecutive residuals in a time series data 
 
