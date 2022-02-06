@@ -42,7 +42,7 @@ np.sqrt(21026037)
 #blue line-regr line is predicted values
 plt.scatter(X_train, y_train, color = 'red')
 plt.plot(X_train, regressor.predict(X_train), color = 'blue')
-plt.title('Salary vs Experience (Trainig set)')
+plt.title('Salary vs Experience (Training set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
@@ -52,7 +52,7 @@ plt.scatter(X_test, y_test, color = 'red')
 
 #Not to replace X_train with X_test as our model is trained on X_train
 plt.plot(X_train, regressor.predict(X_train), color ='blue')
-plt.title('Salary Vs Experience (Test set')
+plt.title('Salary Vs Experience (Test set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
