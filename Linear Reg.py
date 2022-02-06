@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the datset
-dataset = pd.read_csv(r"C:\Users\becel\Downloads\Salary_Data.csv")
+dataset = pd.read_csv("Salary_Data.csv")
 X = dataset.iloc[:, :-1].values #independent variable
 y = dataset.iloc[:, 1].values #dependent variable (salary)
 
